@@ -3,7 +3,7 @@ package LV2;
 public class Zarulja {
     private boolean Stanje;
 
-    public void Zarulja(){
+    Zarulja(){
         Stanje = false;
     }
 
