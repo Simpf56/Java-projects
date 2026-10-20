@@ -15,7 +15,9 @@ public class Main {
         Osram.PritisniPrekidac();
         Osram.Provjeri();
 
-
+        //2.zadatak
+        Zaposlenik zaposlenik = new Zaposlenik(15, 65, 1200.00);
+        zaposlenik.Dohvati();
 
     }
 }
