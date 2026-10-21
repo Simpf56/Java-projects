@@ -5,6 +5,12 @@ public class Zaposlenik {
     private int starost;
     private double placa;
 
+        /**
+     * Stvara novog zaposlenika.
+     * @param staz broj godina staža
+     * @param starost starost u godinama
+     * @param placa mjesečna plaća
+     */
     Zaposlenik(int a,int b,double c){
         staz = a;
         starost = b;
