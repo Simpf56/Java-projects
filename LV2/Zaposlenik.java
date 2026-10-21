@@ -28,4 +28,14 @@ public class Zaposlenik {
     public void PromjeniPlacu(double c){
         placa = c;
     }
+
+    public double UkupnaZarada(){
+        return 12*placa*staz;
+    }
+
+    public static double UkupnaZarada(Zaposlenik x){
+        return 12*x.placa*x.staz;
+    }
+
+    
 }
